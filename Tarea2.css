@@ -1,0 +1,75 @@
+body{
+    background-image: linear-gradient(65deg, lightpink, lightblue, violet, teal);
+    color: rgb(20, 20, 56);
+}
+
+h1{
+    padding: 14px;
+    background-color: palevioletred;
+    border: 2px solid;
+    border-radius: 15px;
+    box-shadow: -9px 8px darkmagenta;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    font-size: 35px;
+    color: rgb(8, 3, 18);
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+h2{
+    color: rgb(39, 63, 108);
+    font-size: 30px;
+    font-family: "Audiowide", sans-serif;
+}
+
+span{
+    background-color: plum;
+    padding: 3px;
+}
+
+.alterna{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+a{text-decoration: none;    
+    color: blue;
+    background-color: none;}
+
+.alternativas{
+     display: grid;
+     font-family: fantasy;
+     grid-template-columns: repeat(5, 1fr);
+     place-items: center;
+     justify-content: center;
+     transition: background-color 0.3s ease ;
+}
+
+a:hover{
+    background-color: pink;
+    color: black;
+    font-family: cursive;
+}
+
+.Img2{
+    border-radius: 12px;
+    box-shadow: -10px -10px turquoise;
+}
+img{
+    width: 360px;
+    height: 270px;
+    border: 2px solid black;
+    border-radius: 12px;
+    box-shadow: 10px 10px turquoise;
+    margin-bottom: 40px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 70px;
+    place-items: center;
+    gap: 10px;
+}
